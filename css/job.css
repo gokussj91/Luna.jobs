@@ -1,0 +1,80 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.menu {
+    float: right;
+}
+
+.menu a, .signup-button {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.signup-button {
+    background-color: #007BFF;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.hero_area {
+    text-align: center;
+    
+    padding: 20px;
+}
+
+.hero_area .text {
+    margin: 0;
+    font-size: 28px;
+    color: #f7f7f7;
+}
+
+.hero_area .apply-button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.job-details {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.text h2{
+    text-align: center;
+}
+
+.text p{
+    margin: 40px;
+    justify-content: space-around;
+
+}
+
+.company-info, .about-job {
+    width: 45%;
+}
+
+footer {
+    background-color: #f7f7f7;
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+}

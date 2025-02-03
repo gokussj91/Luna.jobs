@@ -38,7 +38,10 @@
   .hero_area {
     height: auto;
   }
-
+.job_section .content-box .btn-box a{
+  width: 170px;
+  height: 240px;
+}
   .hero_area::before {
     display: none;
   }
@@ -144,7 +147,10 @@
     padding: 35px 25px;
   }
 }
-
+.job_section .content-box .btn-box a{
+  width: 110px;
+  height: 150px;
+}
 @media (max-width: 480px) {}
 
 @media (max-width: 420px) {

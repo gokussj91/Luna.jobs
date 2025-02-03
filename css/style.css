@@ -556,7 +556,87 @@ a:focus {
 .people_section .people_container.c-2 {
   padding-left: 20%;
 }
+.featured-companies {
+    padding: 40px 0;
+    background-color: #f8f9fa;
+}
 
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.featured-companies h2 {
+    text-align: center;
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.company-card {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin: 10px 10px; 
+}
+
+.company-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.company-logo img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.company-details h3 {
+    font-size: 20px;
+    color: #ff9f01;
+    margin-bottom: 10px;
+}
+
+.company-details p {
+    font-size: 14px;
+    color: #555;
+    margin: 5px 0;
+}
+
+.view-jobs-btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #ff9f01;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.view-jobs-btn:hover {
+    background-color: #ff9f01;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: #ff9f01; 
+}
+
+.slick-dots li button:before {
+    color: #ff9f01;
+}
+
+.slick-dots li.slick-active button:before {
+    color: #ff9f01; 
+}
 .people_section .people_container .box {
   margin: 10px;
 }

@@ -11,6 +11,8 @@
 
   <title>Luna.jobs</title>
   <link rel="icon" href="./images/icon.png" type="image/png">
+ <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
 
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
 <link rel="stylesheet" type="text/css" href="css/cour.css" />
@@ -397,7 +399,7 @@
                 
                 <div class="company-card">
                     <div class="company-logo">
-                        <img src="data:image/png;base64,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" alt="Company Logo">
+                        <img src="https://via.placeholder.com/80" alt="Company Logo">
                     </div>
                     <div class="company-details">
                         <h3>Tech Solutions Inc.</h3>
@@ -430,22 +432,10 @@
                         <a href="#" class="view-jobs-btn">View Jobs</a>
                     </div>
                 </div>
-
-               <div class="company-card">
-                    <div class="company-logo">
-                        <img src="https://via.placeholder.com/80" alt="Company Logo">
-                    </div>
-                    <div class="company-details">
-                        <h3>Data Insights Co.</h3>
-                        <p class="industry">Data Analytics</p>
-                        <p class="location">Addis Ababa, Ethiopia</p>
-                        <a href="#" class="view-jobs-btn">View Jobs</a>
-                    </div>
-                </div>
+                <!-- Add more companies as needed -->
             </div>
         </div>
-            </section>
-
+    </section>
 
   <section class="feature_section">
     <div class="container-fluid">
